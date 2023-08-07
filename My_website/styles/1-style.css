@@ -1,23 +1,45 @@
-nav{
-    color: teal;
-    font-size: 42px;
-}
-
-h1, h3{
-    text-align: Center;
-    color: navy;
-}
-
-.about{
-    color: maroon;
-    border: 1px solid black;
-}
-
 body{
-    margin: 0px;
-    padding: 0px;
-    font-size: 14px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+    background-color:silver;
+    background-attachment: scroll;
+}
+.navlinks{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navlinks:hover{
+    color:red;
+    text-decoration: underline;
+    font-weight: lighter;
 }
 
+h1, h2, h3,h4{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: blink;
+    text-shadow:2px 2px black;
+}
 
+.mytable{
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: left;
+    border-collapse: separate;
+}
 
+.mytable th{
+
+    background-color: gray;
+    padding:8px;
+}
+
+.mytable td{
+    padding: 8px;
+    background-color: #FFFFFF;
+}
