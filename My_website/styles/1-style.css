@@ -1,0 +1,23 @@
+nav{
+    color: teal;
+    font-size: 42px;
+}
+
+h1, h3{
+    text-align: Center;
+    color: navy;
+}
+
+.about{
+    color: maroon;
+    border: 1px solid black;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+
+
